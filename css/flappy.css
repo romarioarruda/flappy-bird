@@ -61,3 +61,33 @@
     font-size: 70px;
     z-index: 100;
 }
+
+.container-restart {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    z-index: 99;
+}
+
+.restart {
+    display: none;
+    font-family: Pixel;
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: burlywood;
+}
+
+.restart:hover {
+    background-color: sandybrown;
+}
+
+
+footer {
+    margin-bottom: 10px;
+}
+
+footer button {
+    cursor: pointer;
+}
