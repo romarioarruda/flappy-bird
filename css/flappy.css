@@ -72,11 +72,13 @@
 
 .restart {
     display: none;
+    position: relative;
     font-family: Pixel;
     font-size: 30px;
     cursor: pointer;
     border: 2px solid #333;
     background-color: burlywood;
+    z-index: 100;
 }
 
 .restart:hover {
