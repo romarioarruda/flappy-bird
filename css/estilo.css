@@ -24,3 +24,8 @@ body {
     align-items: center;
     min-height: 100%;
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
